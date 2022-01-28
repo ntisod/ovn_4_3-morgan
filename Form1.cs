@@ -69,6 +69,13 @@ namespace Övning_4._3
                 // Skapa läsare
                 BinaryReader läsare = new BinaryReader(inStröm);
 
+                // Frågar användaren ifall man will ta bort existerande kontakter eller inte.
+                DialogResult resultat1 = MessageBox.Show("Vill du ta bort existerande kontakter?", "Ta bort kontakter", MessageBoxButtons.YesNo);
+                if (resultat1 == DialogResult.Yes)
+                {
+                    Kontakter.Clear();
+                }
+
                 // Skriv ut en string i taget
                 while (läsare.BaseStream.Position != läsare.BaseStream.Length)
                 {

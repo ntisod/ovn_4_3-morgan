@@ -96,7 +96,7 @@ namespace Övning_4._3
             // tsmStäng
             // 
             this.tsmStäng.Name = "tsmStäng";
-            this.tsmStäng.Size = new System.Drawing.Size(180, 22);
+            this.tsmStäng.Size = new System.Drawing.Size(110, 22);
             this.tsmStäng.Text = "Stäng";
             this.tsmStäng.Click += new System.EventHandler(this.tsmStäng_Click);
             // 
