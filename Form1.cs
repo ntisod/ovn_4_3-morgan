@@ -82,7 +82,7 @@ namespace Övning_4._3
                     Kontakter.Add(new Kontakt(läsare.ReadString(), läsare.ReadString(), läsare.ReadString(), läsare.ReadString()));
                 }
 
-                // Stäng filen
+                // Stäng filen  
                 läsare.Dispose();
                 UppdateraKontaktLista();
             }
